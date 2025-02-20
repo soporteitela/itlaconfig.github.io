@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackeado</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Courier New', Courier, monospace;
+            color: #00ff00; /* Color verde típico de estilo hacker */
+            background: url('imagen1.jpg') no-repeat center center fixed;
+            background-size: cover;
+            overflow: hidden;
+        }
+
+        .container {
+            position: relative;
+            text-align: center;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .message {
+            font-size: 50px;
+            text-shadow: 0 0 10px rgba(0, 255, 0, 0.7);
+        }
+
+        .logo {
+            margin: 20px 0;
+        }
+
+        .binary {
+            font-size: 60px;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: scroll 10s linear infinite;
+        }
+
+        @keyframes scroll {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="message">Has sido hackeado por ITELA CONSULTORES C.A.</div>
+    <img src="logo.png" alt="Logo de ITELA CONSULTORES C.A." class="logo">
+    <div class="binary">
+        0101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+        0101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+        0101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+        0101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+    </div>
+</div>
+
+</body>
+</html>
